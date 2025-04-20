@@ -2,7 +2,6 @@
     "name": "vike-react",
     "version": "0.0.0",
     "exports": {
-        ".": "./dist/index.js",
         "./feature": "./dist/features/feature.js"
     }
 }
