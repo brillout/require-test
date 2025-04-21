@@ -1,6 +1,6 @@
 Showcase that the following isn't equivalent:
-1. `createRequire(cwd); require.resolve(importPath, { paths: ['/'] })`
-2. `createRequire('/'); require.resolve(importPath, { paths: [cwd] })`
+1. `const require = createRequire(cwd); require.resolve(importPath, { paths: ['/'] })`
+2. `const require = createRequire('/'); require.resolve(importPath, { paths: [cwd] })`
 
 Run `$ node ./test.js` to see the difference.
 
